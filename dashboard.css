@@ -226,6 +226,7 @@ body {
 }
 .mainContent .date .list .detail {
   margin-left: 17px;
+  margin-top: 2%;
 }
 .mainContent .date .list .detail .name {
   color: #273240;
@@ -242,6 +243,7 @@ body {
   font-family: "Poppins-SemiBold", serif;
   font-size: 16px;
   margin-left: auto;
+  margin-top: 2%;
 }
 /* -------Right Content css---- */
 

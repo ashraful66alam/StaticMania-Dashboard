@@ -293,10 +293,22 @@ body {
 .rightContent .stats .meter::after {
   content: "";
   width: 50%;
-  width: calc();
+  /* width: calc(); */
   background-color: #31ba96;
   display: block;
   height: 5px;
+}
+.rightContent .stats ul li:nth-child(2) >.meter::after {
+  width: 30%;
+}
+.rightContent .stats ul li:nth-child(3) >.meter::after {
+  width: 80%;
+}
+.rightContent .stats ul li:nth-child(4) >.meter::after {
+  width: 10%;
+}
+.rightContent .stats ul li:nth-child(5) >.meter::after {
+  width: 65%;
 }
 
 .rightContent .boxTips {
